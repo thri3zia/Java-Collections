@@ -25,11 +25,13 @@ public class TMLHashSet {
             System.out.print("1. Add");
             System.out.print("\n2. Remove");
             System.out.print("\n3. Display");
-            System.out.print("\n4. Exit");
+            System.out.print("\n4. Clear");
+            System.out.print("\n5. Exit");
 
             System.out.print("\nSelected option: ");
             choice = input.next().charAt(0);
-    
+            
+            
             switch (choice) {
             case '1':
                 System.out.print("\n====================================================================");
@@ -67,6 +69,13 @@ public class TMLHashSet {
                 break;
                 
             case '4':
+                System.out.print("\n********************************************************************\n"); 
+                numberHashSet.clear();  
+                System.out.println("\n\t\tCLEARED HashSet Collection:" + numberHashSet);
+                System.out.print("\n********************************************************************\n"); 
+                break;
+                
+            case '5':
                 System.out.print("\n====================================================================\n"); 
                 System.out.println("\n******* THANK YOU FOR USING THIS SIMPLE PROGRAM. ADIOS! *******");  
                 System.out.print("\n====================================================================\n\n"); 
@@ -77,7 +86,7 @@ public class TMLHashSet {
                 System.out.print("\n********************************************************************");
                 break;
         }
-        }while (choice != '4');
+        }while (choice != '5');
         
         
     
