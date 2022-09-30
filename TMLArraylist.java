@@ -69,7 +69,7 @@ public class TMLArraylist {
                 case '4':
                     System.out.print("\n********************************************************************\n"); 
                     numberArrayList.clear();  
-                    System.out.println("\n\t\tCLEARED HashSet Collection:" + numberArrayList);
+                    System.out.println("\n\t\tCLEARED Arraylist Collection:" + numberArrayList);
                     System.out.print("\n********************************************************************\n"); 
                     break;
                 case '5':
