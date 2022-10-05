@@ -1,24 +1,19 @@
-public class Hobby{
-    private String name;
-    private String resource;
+public class Hobby <DataType>{
 
-    public Hobby(String name , String resource){ 
-             
-    }
+    private String hobby;
+    private String resources;
 
-    public String getName(){
-        return name;
+    public void setHobby(String hobby){
+        this.hobby = hobby;
     }
-
-    public void setname(String name){
-        this.name = name;
+    public String getHobby(){
+        return hobby;
     }
-    public String getResource(){
-        return resource;
+    public void setResources(String resources){
+        this.resources = resources;
     }
-
-    public void setResource(String resource ){
-        this.resource = resource;
+    public String getResources(){
+        return resources;
     }
 
 }
