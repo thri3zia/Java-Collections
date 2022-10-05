@@ -1,5 +1,5 @@
 public class ForExcept extends Exception{
-    public ForExcept(String message)
+    public ForExcept(String message) 
     {
         super(message);
     }

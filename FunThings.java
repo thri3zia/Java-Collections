@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class FunThings {
 
     public static void main(String[] args) {
-            Scanner scan = new Scanner(System.in);
+            Scanner scan = new Scanner(System.in); 
             List<String> hobbyList = new ArrayList <String>();
     
             Hobby<String> hobby1 = new Hobby<String>();
@@ -27,6 +27,11 @@ public class FunThings {
             hobby4.setHobby("Table Tennis");
             hobby4.setResources("Tennis Racket and Serving ball");
             hobbyList.add(hobby4.getHobby() +  " \nNeeded resources would be: " + hobby4.getResources());
+
+            Hobby<String> hobby5 = new Hobby<String>();
+            hobby5.setHobby("BasketBall");
+            hobby5.setResources(" Ball");
+            hobbyList.add(hobby5.getHobby() +  " \nNeeded resources would be: " + hobby5.getResources());
            
     
             System.out.print("Enter the index you want [0,1,2,3]2: ");

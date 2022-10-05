@@ -1,7 +1,7 @@
 public class Hobby <DataType>{
 
     private String hobby;
-    private String resources;
+    private String resources; 
 
     public void setHobby(String hobby){
         this.hobby = hobby;
